@@ -113,7 +113,7 @@ def DumpSettingsToLog():
 def CreateSensor():
     if (len(Devices) == 0):
         # Domoticz.Device(Name="jodelo", Unit=1, TypeName="Custom",Used=1, DeviceID=devID).Create()
-        Domoticz.Device(Name="Tonq-snmp", Unit=1, TypeName=Parameters["Mode3"], ,Used=1).Create()
+        Domoticz.Device(Name="Tonq-snmp", Unit=1, TypeName=Parameters["Mode3"], Used=1).Create()
         Domoticz.Log("Tonq sensor created")
 
 def UpdateSensor():
